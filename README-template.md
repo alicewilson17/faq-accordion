@@ -63,27 +63,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Since this is day 1 and I hadn't written any code since before I went traveling, I recapped how to create a new repository and push to Github.
 
-To see how you can add code snippets, see below:
+I revised my HTML and CSS knowledge, including the difference between flexbox and grid in CSS.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I learned how to add a background image using an svg.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Got stuck getting the right elements ie getting the accordion so that when you click on it it opens. It is giving an empty nodelist when I queryselectorall('.accordion'). Realised it was because I was selecting the wrong div - needed to select the accordion-question div within each accordion div, so did that within a foreach, and then added the event listener to the accordion-question so that when the question itself is clicked on, the accordion classlist is toggled to active and the accordion-answer is revealed.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Had fun playing around with css properties and getting back into the swing of things. Certainly felt rusty but it's only day 1, we have a long way to go!
 
 ### Continued development
 
