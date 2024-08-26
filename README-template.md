@@ -71,6 +71,8 @@ I learned how to add a background image using an svg.
 
 Got stuck getting the right elements ie getting the accordion so that when you click on it it opens. It is giving an empty nodelist when I queryselectorall('.accordion'). Realised it was because I was selecting the wrong div - needed to select the accordion-question div within each accordion div, so did that within a foreach, and then added the event listener to the accordion-question so that when the question itself is clicked on, the accordion classlist is toggled to active and the accordion-answer is revealed.
 
+Enjoyed making the styling match our podcast theme. Added a smooth transition for the accordion open and close.
+
 Had fun playing around with css properties and getting back into the swing of things. Certainly felt rusty but it's only day 1, we have a long way to go!
 
 ### Continued development
